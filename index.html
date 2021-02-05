@@ -7,40 +7,73 @@
   <link rel='stylesheet' href='./styles/styles.css' />
 </head>
 <body>
-  <nav></nav>
+  <nav class='link--hire-me'>
+    <li><a>Hire Me!</a></li>
+  </nav>
   <header class='welcome'>
     <h1>I Make Websites for Creatives<br />Who Want to <span class='typed-text'>Leave An Impression</span></h1>
   </header>
-  <section class='portfolio'>
-      <aside><nav>
-        <a><i></i></a> <!-- Connect logo app-->
-      </nav></aside> <!-- Jumps to top of page, only viewable after user scrolls down then is fixed/sticky -->
+  <section class='portfolio'> <!-- Flex Panel Sliders-->
+      <aside>
+        <nav class='link--jump-to-top'>
+          <a><i></i></a> <!-- Upwards arrow from fontawesome-->
+        </nav>
+      </aside> <!-- Jumps to top of page, only viewable after user scrolls down then is fixed/sticky -->
       <h1>Who I've helped.</h1>
       <div class='projects' id='project-1'>
         <h2>WinePot</h2>
         <a>Check it out!</a> <!--Link to project-->
       </div>
       <div class='projects' id='project-2'>
-        <h2>Project Title</h2>
+        <h2>Black House Productions</h2>
         <a>Check it out!</a> <!--Link to project-->
       </div>
       <div class='projects' id='project-3'>
-        <h2>Project Title</h2>
+        <h2>Doesnthen Existon</h2>
         <a>Check it out!</a> <!--Link to project-->
       </div>
       <div class='projects' id='project-4'>
-        <h2>Project Title</h2>
+        <h2>Bikehael Michael</h2>
         <a>Check it out!</a> <!--Link to project-->
       </div>
       <div class='projects' id='project-5'>
-        <h2>Project Title</h2>
+        <h2>Silly Lil'Goose</h2>
         <a>Check it out!</a> <!--Link to project-->
       </div>
   </section>
   <section class='services'>
-
+    <h1>Services</h1>
+    <div class='services' id='service-1'>
+      <h2>Website Design</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore aliquid, sapiente officia omnis nostrum numquam voluptatem nulla tempore consectetur sunt laboriosam enim aspernatur nemo excepturi. Pariatur sequi assumenda veritatis ipsam.</p>
+    </div>
+    <div class='services' id='service-2'>
+      <h2>SEO & Marketing</h2>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis reprehenderit, quam voluptatibus accusamus repellat vero neque dignissimos culpa laborum voluptate, voluptates nostrum velit laboriosam at iste provident deserunt officia non.</p>
+    </div>
+    <div class='services' id='service-3'>
+      <h2>Copywriting</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum voluptas ipsam eius deserunt et tenetur ratione error voluptates accusantium nihil reprehenderit, dolore aliquid rem quasi. Fuga, sequi. Expedita, atque accusantium?</p>
+    </div>
+    
   </section>
-  <section class='contact'></section>
-  <footer class='legal-stuff'></footer>
+  <section class='contact'>
+    <h1>Let's Chat!</h1>
+    <form action='' method='get' class='contact-form'>
+      <label for='name'>Name</label>
+      <input id='name' name='name' type='text' />
+      <label for='email'>Email</label>
+      <input id='email' name='email' type='email' />
+      <label for='message'>Message</label>
+      <input id='message' name='message' type='text' />
+    </form>
+  </section>
+  <footer class='legal-stuff'>
+    <ul>
+      <li>&copy;2021 ExpressTo.com</li>
+      <li></li> <!--Font Awesome LinkedIn Icon-->
+      <li></li> <!--Font Awesome Github Icon-->
+    </ul>
+  </footer>
 </body>
 </html>
