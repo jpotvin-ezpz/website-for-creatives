@@ -330,12 +330,11 @@ body {
 section.service-section {
   background: rgba(97,93,172,1); 
   height: 60vh;
-  margin-bottom: 10vh;
 }
 section.service-section h1 {
   font-family: 'Rock Salt', cursive;
   display:inline-block;
-  margin: 40px 20px;
+  margin: 20px;
   color: var(--main-heading-color);
   
 }
@@ -371,8 +370,86 @@ div.services-wrapper div.services p {
 }
 
 /* Contact Form */
+.contact {
+  background: #94d2e0;
+  background: linear-gradient(45deg, #94d2e0 0%, hsla(260, 72%, 82%, 1) 100%);
+}
 .contact h1{
   color: var(--main-heading-color);
   font-family: 'Rock Salt', cursive;
+}
+.contact h1 span {
+  font-family: 'Rock Salt', cursive;
+  position:relative;
+  color: var( --shadow-compliment);
+  text-shadow: 5px 5px        var(--shadow), 
+               4.75px 4.75px  var(--shadow), 
+               4.5px 4.5px    var(--shadow), 
+               4.25px 4.25px  var(--shadow),
+               4px 4px        var(--shadow),
+               3.75px 3.75px  var(--shadow),
+               3.5px 3.5px    var(--shadow),
+               3.25px 3.25px  var(--shadow),
+               3px 3px        var(--shadow),
+               2.75px 2.75px  var(--shadow),
+               2.5px 2.5px    var(--shadow),
+               2.25px 2.25px  var(--shadow),
+               2px 2px        var(--shadow),
+               1.75px 1.75px  var(--shadow),
+               1.5px 1.5px    var(--shadow),
+               1.25px 1.25px  var(--shadow),
+               1px 1px        var(--shadow),
+               0.75px 0.75px  var(--shadow),
+               0.5px 0.5px    var(--shadow),
+               0.25px 0.25px  var(--shadow);
+  animation: scatter 1s infinite;
+}
+.contact h1 span:nth-child(2n) {
+  color: var( --shadow--two-compliment);
+  text-shadow: 5px 5px        var(--shadow-two), 
+               4.75px 4.75px  var(--shadow-two), 
+               4.5px 4.5px    var(--shadow-two), 
+               4.25px 4.25px  var(--shadow-two),
+               4px 4px        var(--shadow-two),
+               3.75px 3.75px  var(--shadow-two),
+               3.5px 3.5px    var(--shadow-two),
+               3.25px 3.25px  var(--shadow-two),
+               3px 3px        var(--shadow-two),
+               2.75px 2.75px  var(--shadow-two),
+               2.5px 2.5px    var(--shadow-two),
+               2.25px 2.25px  var(--shadow-two),
+               2px 2px        var(--shadow-two),
+               1.75px 1.75px  var(--shadow-two),
+               1.5px 1.5px    var(--shadow-two),
+               1.25px 1.25px  var(--shadow-two),
+               1px 1px        var(--shadow-two),
+               0.75px 0.75px  var(--shadow-two),
+               0.5px 0.5px    var(--shadow-two),
+               0.25px 0.25px  var(--shadow-two);
+  animation-delay: .5s;
+}
+.contact h1 span:nth-child(3n) {
+  color: var( --shadow--three-compliment);
+  text-shadow: 5px 5px        var(--shadow-three), 
+               4.75px 4.75px  var(--shadow-three), 
+               4.5px 4.5px    var(--shadow-three), 
+               4.25px 4.25px  var(--shadow-three),
+               4px 4px        var(--shadow-three),
+               3.75px 3.75px  var(--shadow-three),
+               3.5px 3.5px    var(--shadow-three),
+               3.25px 3.25px  var(--shadow-three),
+               3px 3px        var(--shadow-three),
+               2.75px 2.75px  var(--shadow-three),
+               2.5px 2.5px    var(--shadow-three),
+               2.25px 2.25px  var(--shadow-three),
+               2px 2px        var(--shadow-three),
+               1.75px 1.75px  var(--shadow-three),
+               1.5px 1.5px    var(--shadow-three),
+               1.25px 1.25px  var(--shadow-three),
+               1px 1px        var(--shadow-three),
+               0.75px 0.75px  var(--shadow-three),
+               0.5px 0.5px    var(--shadow-three),
+               0.25px 0.25px  var(--shadow-three);
+  animation-delay: .15s;
 }
 /* Footer */
