@@ -5,65 +5,73 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Express To Impress</title>
   <link rel='stylesheet' href='./styles/styles.css' />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Rock+Salt&display=swap" rel="stylesheet">
 </head>
 <body>
-    
-      
-    <header class='welcome'>
-        <nav class='wrapper--hire-me'>
-         <li>
-           <a class='btn--hire-me'href='#'>Hire Me!</a>
-         </li>
-        </nav>
-        <h1 id='title'>I make Websites <br /> for<span class='typed-text'> Creatives</span>
-        </h1>
+    <header class="wave-container">
+      <div class='welcome'>
+      <h1><span aria-hidden=true>I</span> <span aria-hidden=true>B</span><span aria-hidden=true>u</span><span aria-hidden=true>i</span><span aria-hidden=true>l</span><span aria-hidden=true>d</span> <span aria-hidden=true>W</span><span aria-hidden=true>e</span><span aria-hidden=true>b</span><span aria-hidden=true>s</span><span aria-hidden=true>i</span><span aria-hidden=true>t</span><span aria-hidden=true>e</span><span aria-hidden=true>s</span> <span aria-hidden=true>f</span><span aria-hidden=true>o</span><span aria-hidden=true>r</span> <span class='typed-text'>Creatives</span><span class='cursor'>&nbsp;</span></h1>
+      </div>
+      <div class='scroll-hint'>
+        <div>|</div>
+        <div>.</div>
+        <div>.</div>
+      </div>
+      <svg height="100%" width="100%" id="bg-svg" viewBox="0 0 1440 700" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150"><path d="M 0,700 C 0,700 0,233 0,233 C 143.96428571428572,269.8928571428571 287.92857142857144,306.7857142857143 411,299 C 534.0714285714286,291.2142857142857 636.2499999999999,238.75 728,227 C 819.7500000000001,215.25 901.0714285714287,244.21428571428572 1018,252 C 1134.9285714285713,259.7857142857143 1287.4642857142858,246.39285714285714 1440,233 C 1440,233 1440,700 1440,700 Z" stroke="none" stroke-width="0" fill="#29274C" fill-opacity="0.5" class="transition-all duration-300 ease-in-out delay-150"></path><path d="M 0,700 C 0,700 0,466 0,466 C 113.10714285714289,495.2142857142857 226.21428571428578,524.4285714285714 351,508 C 475.7857142857142,491.57142857142856 612.2499999999998,429.50000000000006 727,398 C 841.7500000000002,366.49999999999994 934.7857142857144,365.57142857142856 1050,382 C 1165.2142857142856,398.42857142857144 1302.6071428571427,432.2142857142857 1440,466 C 1440,466 1440,700 1440,700 Z" stroke="none" stroke-width="0" fill="#29274C" class="transition-all duration-300 ease-in-out delay-150"></path></svg>
     </header>
+  <main>
   <section class='portfolio'> <!-- Flex Panel Sliders-->
-      <aside>
-        <nav class='link--jump-to-top'>
-          <a><i></i></a> <!-- Upwards arrow from fontawesome-->
-        </nav>
-      </aside> <!-- Jumps to top of page, only viewable after user scrolls down then is fixed/sticky -->
-      <h1>Who I've helped.</h1>
-      <div class='projects' id='project-1'>
-        <h2>WinePot</h2>
-        <a>Check it out!</a> <!--Link to project-->
-      </div>
-      <div class='projects' id='project-2'>
-        <h2>Black House Productions</h2>
-        <a>Check it out!</a> <!--Link to project-->
-      </div>
-      <div class='projects' id='project-3'>
-        <h2>Doesnthen Existon</h2>
-        <a>Check it out!</a> <!--Link to project-->
-      </div>
-      <div class='projects' id='project-4'>
-        <h2>Bikehael Michael</h2>
-        <a>Check it out!</a> <!--Link to project-->
-      </div>
-      <div class='projects' id='project-5'>
-        <h2>Silly Lil'Goose</h2>
-        <a>Check it out!</a> <!--Link to project-->
+     
+      <h1>Who I've helped</h1>
+      <div class='projects-wrapper'>
+        <div class='project project1'>
+          <h2>winepot.</h2>
+          <p>I</p>
+          <p><a href='#' target='_blank'>Check it out!</a></p> <!--Link to project-->
+        </div>
+        <div class='project project2'>
+          <h2>Black House</h2>
+          <p>II</p>
+          <p><a href='#' target='_blank'>Check it out!</a></p> <!--Link to project-->
+        </div>
+        <div class='project project3'>
+          <h2>Doesnthen Existon</h2>
+          <p>III</p>
+          <p><a href='#' target='_blank'>Check it out!</a></p> <!--Link to project-->
+        </div>
+        <div class='project project4'>
+          <h2>Bikehael Michael</h2>
+          <p>IV</p>
+          <p><a href='#' target='_blank'>Check it out!</a></p> <!--Link to project-->
+        </div>
+        <div class='project project5'>
+          <h2>Silly Lil'Goose</h2>
+          <p>V</p>
+          <p><a href='#' target='_blank'>Check it out!</a></p> <!--Link to project-->
+        </div>
       </div>
   </section>
-  <section class='services'>
+  <section class='service-section' >
     <h1>Services</h1>
+    <div class='services-wrapper'>
     <div class='services' id='service-1'>
-      <h2>Website Design</h2>
+      <h2>Design</h2>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore aliquid, sapiente officia omnis nostrum numquam voluptatem nulla tempore consectetur sunt laboriosam enim aspernatur nemo excepturi. Pariatur sequi assumenda veritatis ipsam.</p>
     </div>
     <div class='services' id='service-2'>
-      <h2>SEO & Marketing</h2>
+      <h2>SEO</h2>
       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis reprehenderit, quam voluptatibus accusamus repellat vero neque dignissimos culpa laborum voluptate, voluptates nostrum velit laboriosam at iste provident deserunt officia non.</p>
     </div>
     <div class='services' id='service-3'>
-      <h2>Copywriting</h2>
+      <h2>Management</h2>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum voluptas ipsam eius deserunt et tenetur ratione error voluptates accusantium nihil reprehenderit, dolore aliquid rem quasi. Fuga, sequi. Expedita, atque accusantium?</p>
     </div>
-    
+  </div> 
   </section>
+
   <section class='contact'>
-    <h1>Let's Chat!</h1>
+    <h1>Wanna Collab?</h1>
     <form action='' method='get' class='contact-form'>
       <label for='name'>Name</label>
       <input id='name' name='name' type='text' />
@@ -73,13 +81,14 @@
       <input id='message' name='message' type='text' />
     </form>
   </section>
+</main>
   <footer class='legal-stuff'>
     <ul>
-      <li>&copy;2021 ExpressTo.com</li>
+      <li>&copy;2021 ExpressToImpress.com</li>
       <li></li> <!--Font Awesome LinkedIn Icon-->
       <li></li> <!--Font Awesome Github Icon-->
     </ul>
   </footer>
-
+  <script type='text/javascript' src='scripts/main.js'></script>
 </body>
 </html>
