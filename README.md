@@ -4,7 +4,7 @@
 
 <div align="center">
   <h3>
-    <a href="gusty-reward.surge.sh">
+    <a href="https://gusty-reward.surge.sh/">
       Demo
     </a>
     <span> | </span>
